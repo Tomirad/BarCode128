@@ -147,7 +147,7 @@ class BarCode128
 	{
 		// set code for bar-parsing
 		$this->setCodecSet();
-		$this->Code($code. '3432423 4234 234324 324');
+		$this->Code($code);
 
 		// default settings
 		$this->BorderWidth(0);
